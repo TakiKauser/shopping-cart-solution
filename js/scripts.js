@@ -67,3 +67,8 @@ document.getElementById("case-plus").addEventListener("click", function(){
 document.getElementById("case-minus").addEventListener("click", function(){
     counterCalculator("case", false);
 });
+
+document.getElementById("checkout-btn").addEventListener("click", function(){
+    alert("Thanks for shopping. Stay Connected.");
+    document.getElementById("checkout-btn").style.display = "none";
+});
